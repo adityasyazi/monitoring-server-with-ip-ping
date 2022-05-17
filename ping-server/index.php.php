@@ -5,13 +5,13 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="logo-kayaba.ico">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
     <link rel=“icon” href=“logo-kyb.png” type=”image/png”>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Server | PT Kayaba</title>
+    <title>Server | PT</title>
   </head>
   <body>
   <div class="container"><br>
@@ -21,7 +21,7 @@
           <div class="col">
             <h1 style="background-color:DodgerBlue;color:white;">Server Google</h1>
             <?php 
-                $host="8.8.8.8"; //alamat atau ip server kayaba
+                $host="8.8.8.8"; //alamat atau ip server
                 $output=shell_exec('ping -n 5 '.$host); //menampilkan looping eksekusi selama 5 kali 
 
                 echo "<pre>$output</pre>"; //for viewing the ping result, if not need it just remove it
@@ -46,7 +46,7 @@
           <div class="col">
             <h1 style="background-color:DodgerBlue;color:white;">Server ERP</h1>
             <?php 
-                $host="ganool.com"; //alamat atau ip server kayaba
+                $host="ganool.com"; //alamat atau ip server 
                 $output=shell_exec('ping -n 5 '.$host); //menampilkan looping eksekusi selama 5 kali 
 
                 echo "<pre>$output</pre>"; //for viewing the ping result, if not need it just remove it
@@ -71,7 +71,7 @@
           <div class="col">
           <h1 style="background-color:DodgerBlue;color:white;">Server SUPPLIERS</h1>
             <?php 
-                $host="208.65.153.238"; //alamat atau ip server kayaba
+                $host="208.65.153.238"; //alamat atau ip server 
                 $output=shell_exec('ping -n 5 '.$host); //menampilkan looping eksekusi selama 5 kali 
 
                 echo "<pre>$output</pre>"; //for viewing the ping result, if not need it just remove it
@@ -96,7 +96,7 @@
           <div class="col">
           <h1 style="background-color:DodgerBlue;color:white;">Server Monitoring Suhu</h1>
             <?php 
-                $host="208.65.153.238"; //alamat atau ip server kayaba
+                $host="208.65.153.238"; //alamat atau ip server 
                 $output=shell_exec('ping -n 5 '.$host); //menampilkan looping eksekusi selama 5 kali 
 
                 echo "<pre>$output</pre>"; //for viewing the ping result, if not need it just remove it
